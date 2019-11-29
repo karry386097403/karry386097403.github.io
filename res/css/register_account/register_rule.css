@@ -1,0 +1,36 @@
+.user_registration_agreement{
+    margin-top: 30px;
+}
+
+.user_registration_agreement .top{
+    height:52px;
+    padding: 20px;
+    background: #FB96A0;
+    color: #666;
+    opacity:0.3;
+    box-sizing: border-box;
+}
+
+.user_registration_agreement .top .far{
+    margin: 0 10px;
+}
+
+.user_registration_agreement .title{
+    margin-top: 30px;
+    margin-bottom: 19px;
+    text-align: center;
+    color: #333;
+}
+
+.user_registration_agreement .title h4{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.user_registration_agreement .content{
+    padding: 19px 98px 98px 98px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #333;
+    border:1px solid rgba(254,223,226,1);
+}

@@ -1,0 +1,106 @@
+<!-- 账号登录页面 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>账号登录</title>
+    <link rel="stylesheet" href="../../res/layui-v2.5.5/layui/css/layui.css" />
+    <link rel="stylesheet" href="../../res/css/global.css" />
+    <link rel="stylesheet" href="../../res/css/login_account/account_login.css" />
+    <script src="https://cdn.bootcss.com/jquery/3.4.0/jquery.js"></script>
+    <script src="../../res/layui-v2.5.5/layui/layui.js"></script>
+    <script src="../../res/js/global.js"></script>
+    <script src="../../res/js/login_account/account_login.js"></script>
+</head>
+
+<body>
+    <!-- hearder -->
+    <div class="layui-container">
+        <div class="account_header">
+            <div class="account_header_left">
+                <a href="javascript:;">
+                    <img src="../../res/images/login/logo.png" />
+                </a>
+            </div>
+            <div class="account_header_line"></div>
+            <div class="account_header_text">
+                <b>欢迎登录</b>
+            </div>
+        </div>
+    </div>
+    <div class="banner_bg">
+        <div class="layui-container">
+            <div class="account_content">
+                <div class="content_box">
+                    <div class="content_box_pic">
+                        <img src="../../res/images/login/chahua.png" />
+                    </div>
+                    <div class="content_box_content">
+                        <div class="erweima">
+                            <img src="../../res/images/login/erweima1.png" />
+                        </div>
+                        <form id="content_form" class="layui-form">
+                            <div class="title">
+                                <h4>账号登录</h4>
+                            </div>
+                            <div class="content">
+                                <div class="layui-form-item bl">
+                                    <div class="layui-col-md2 lh">
+                                        <img src="../../res/images/login/user.png" />
+                                    </div>
+                                    <div class="layui-col-md10">
+                                        <input type="text" class="layui-input account_login_phone" name="account_login_phone" placeholder="请输入手机号或邮箱" />
+                                    </div>
+                                </div>
+                                <!-- 错误提示 -->
+                                <div class="layui-col-md-offset1 error_tip_phone">
+                                        <img src="../../res/images/login/tips.png" /><i></i>
+                                </div>
+                                <div class="layui-form-item bl">
+                                    <div class="layui-col-md2 lh">
+                                        <img src="../../res/images/login/password.png" />
+                                    </div>
+                                    <div class="layui-col-md10">
+                                        <input type="text" class="layui-input account_login_password" name="account_login_password" placeholder="请输入6-15位密码" />
+                                    </div>
+                                </div>
+                                <!-- 错误提示 -->
+                                <div class="layui-col-md-offset1 error_tip_password">
+                                        <img src="../../res/images/login/tips.png" /><i></i>
+                                </div>
+                            </div>
+                            <div class="operate">
+                                <a href="../../login/register/register_phone.html" class="register_free">免费注册</a>
+                                <i></i>
+                                <a href="../../login/password/forget_password.html" class="forget_password">忘记密码</a>
+                            </div>
+                            <div class="btn_box">
+                                <button type="submit" class="layui-btn login_now" lay-submit lay-filter="login_now">登录</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="layui-container">
+        <div class="account_footer">
+            <div class="title">
+                <h4>联系我们</h4>
+            </div>
+            <ul>
+                <li class="mr">客服热线：207-8768878</li>
+                <li class="mr">客服邮箱：support@zhuaic.com</li>
+                <li class="mr">服务时间：工作日 09:00-18:00</li>
+                <li>公司地址：湖北省武汉市洪山区邮科院88号<img src="../../res/images/login/address.png" id="baidu_map" /></li>
+            </ul>
+            <div class="account_footer_bm">版权所有 © 2019 抓现货 保留所有权利 鄂ICP备15018760号</div>
+        </div>
+    </div>
+</body>
+
+</html>

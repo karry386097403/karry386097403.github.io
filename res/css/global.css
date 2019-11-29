@@ -1,0 +1,193 @@
+/* 头部外层盒子 */
+.bg_total{
+    width: 100%;
+    box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.08);
+}
+
+/* 账号登录头部 */
+.account_header{
+    height: 100px;
+}
+
+/* 账号登录头部logo */
+.account_header .account_header_left{
+    display: inline-block;
+    width: 261px;
+    height: 63px;
+    margin: 19px 30px 18px 0;
+}
+
+.account_header_left img{
+    width: 100%;
+    height: 100%;
+}
+
+.account_header .account_header_line{
+    display: inline-block;
+    width: 1px;
+    height: 31px;
+    background:rgba(187,187,187,1);
+    opacity:0.5;
+    vertical-align: middle;
+}
+
+/* 账号登录头部-欢迎登录 */
+.account_header .account_header_text{
+    display: inline-block;
+    margin-left: 33px;
+    font-size:18px;
+    color:#999;
+    vertical-align: middle;
+}
+
+.account_header_text a{
+    color: #999;
+    font-weight: 700;
+}
+
+/* 账号登录头部-已有帐号，立即登录 */
+.account_header .account_header_right{
+    float: right;
+    margin-top: 43px;
+    font-size:18px;
+    font-weight: 700;
+}
+
+/* 已有帐号 */
+.account_header_right b{
+    color:#999;
+}
+
+/* 立即登录 */
+.account_header_right a{
+    color: #D82335;
+    cursor: pointer;
+}
+
+/* 账号登录底部 */
+.account_footer{
+    height: 143px;
+    padding: 0 140px;
+}
+
+.account_footer .title{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.account_footer .title h4{
+    font-weight: 700;
+    color: #666;
+}
+
+.account_footer ul{
+    display: flex;
+    margin: 20px 0;
+    font-size: 12px;
+    color: #999;
+}
+
+.account_footer .mr{
+    margin-right: 20px;
+}
+
+.account_footer img{
+    width: 13px;
+    height: 18px;
+    margin-left: 5px;
+}
+
+.account_footer .account_footer_bm{
+    margin-bottom: 9px;
+    font-size: 12px;
+    text-align: center;
+    color: #999;
+}
+
+/* 底部定位图标 */
+#baidu_map{
+    cursor: pointer;
+}
+
+/* 账号登录-主体内容盒子 */
+.account_content{
+    height: 700px;
+    padding: 80px 0 82px 0;
+    box-sizing: border-box;
+}
+
+.account_content .content_box{
+    display: flex;
+    width: 715px;
+    height: 438px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.content_box .content_box_pic{
+    width: 402px;
+    height: 279px;
+    padding: 80px 0 79px 0;
+}
+
+.content_box .content_box_pic img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 账号登录-主体内容 */
+.content_box .content_box_content{
+    position: relative;
+    width: 267px;
+    height: 335px;
+    margin-left: 46px;
+}
+
+/* 账号登录-右上角二维码 */
+.content_box_content .erweima{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 119px;
+    height: 119px;
+    text-align: right;
+}
+
+.erweima img{
+    cursor: pointer;
+}
+
+/* layui弹窗默认关闭按钮 */
+.layui-layer-setwin .layui-layer-close2{
+    display: none;
+}
+
+/* 输入框提示语 */
+input::placeholder{
+    color: #ccc;
+}
+
+/* layui默认复选框 */
+.layui-form-checkbox[lay-skin=primary]{
+    padding-left: 20px;
+}
+
+.layui-form-checkbox[lay-skin=primary]:hover i{
+    border-color: #d2d2d2;
+}
+
+.layui-form-checkbox[lay-skin=primary] i{
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+}
+
+.layui-form-checked[lay-skin=primary] i{
+    border-color: #D82335!important;
+    color: #D82335!important;
+    background-color: #fff;
+}
+
+i{
+    font-style: normal;
+}

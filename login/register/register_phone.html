@@ -1,0 +1,125 @@
+<!-- 免费注册-手机号注册页面 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>手机号注册</title>
+    <link rel="stylesheet" href="../../res/layui-v2.5.5/layui/css/layui.css" />
+    <link rel="stylesheet" href="../../res/css/global.css" />
+    <link rel="stylesheet" href="../../res/css/register_account/register_phone.css" />
+    <script src="https://cdn.bootcss.com/jquery/3.4.0/jquery.js"></script>
+    <script src="../../res/layui-v2.5.5/layui/layui.js"></script>
+    <script src="../../res/js/global.js"></script>
+    <script src="../../res/js/register_account/register_phone.js"></script>
+</head>
+
+<body>
+    <!-- hearder -->
+    <div class="layui-container">
+        <div class="account_header">
+            <div class="account_header_left">
+                <a href="javascript:;">
+                    <img src="../../res/images/login/logo.png" />
+                </a>
+            </div>
+            <div class="account_header_line"></div>
+            <div class="account_header_text">
+                <b>免费注册</b>
+            </div>
+            <div class="account_header_right">
+                <b>已有帐号</b>，
+                <a href="../../login/account/account_login.html">立即登录</a>
+            </div>
+        </div>
+    </div>
+    <div class="banner_bg">
+        <div class="layui-container">
+            <div class="register_content">
+                <div class="register_box">
+                    <form class="layui-form register_form" lay-filter="register_form">
+                        <div class="title">
+                            <h4>手机号注册</h4>
+                        </div>
+                        <div class="content">
+                            <div class="layui-form-item bl">
+                                <div class="layui-col-md1 lh"><i class="must">*</i></div>
+                                <div class="layui-col-md11">
+                                    <input type="text" name="account_register_phone" class="layui-input account_register_phone" placeholder="请输入手机号" />
+                                </div>
+                            </div>
+                            <!-- 错误提示 -->
+                            <div class="wrong_show_phone">
+                                <img src="../../res/images/login/tips.png" /><i></i>
+                            </div>
+                            <div class="layui-form-item bl">
+                                <div class="layui-col-md1 lh"><i class="must">*</i></div>
+                                <div class="layui-col-md7">
+                                    <input type="text" name="account_register_code" class="layui-input account_register_code" placeholder="请输入验证码" />
+                                </div>
+                                <div class="layui-col-md4 lh_t">
+                                    <a href="javascript:;" class="get_code">获取验证码</a>
+                                </div>
+                            </div>
+                            <!-- 错误提示 -->
+                            <div class="wrong_show_code">
+                                <img src="../../res/images/login/tips.png" /><i></i>
+                            </div>
+                            <div class="layui-form-item bl">
+                                <div class="layui-col-md1 lh"><i class="must">*</i></div>
+                                <div class="layui-col-md11">
+                                    <input type="password" name="account_register_password"  class="layui-input account_register_password" placeholder="请输入密码" />
+                                </div>
+                            </div>
+                            <!-- 错误提示 -->
+                            <div class="wrong_show_password">
+                                <img src="../../res/images/login/tips.png" /><i></i>
+                            </div>
+                            <div class="layui-form-item bl">
+                                <div class="layui-col-md1 lh"><i class="must">*</i></div>
+                                <div class="layui-col-md11">
+                                    <input type="password" name="account_register_comfirm_Password" class="layui-input account_register_comfirm_Password" placeholder="请确认密码" />
+                                </div>
+                            </div>
+                            <!-- 错误提示 -->
+                            <div class="wrong_show_comfirm">
+                                <img src="../../res/images/login/tips.png" /><i></i>
+                            </div>
+                            <div class="layui-form-item bl">
+                                <div class="layui-col-md12">
+                                    <input type="text" name="account_register_recommend" class="layui-input account_register_recommend" placeholder="输入推荐码" />
+                                </div>
+                            </div>
+                            <div class="rule_box">
+                                <input type="checkbox" name="rule" value="agree" title="" checked lay-skin="primary">
+                                <span>我已阅读并接受<a href="register_rule.html" target="register_rule.html">《抓现货用户注册协议》</a></span>
+                            </div>
+                            <div class="btn_box">
+                                <button type="submit" class="layui-btn register_now" lay-submit lay-filter="register_now">注册</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="layui-container">
+        <div class="account_footer">
+            <div class="title">
+                <h4>联系我们</h4>
+            </div>
+            <ul>
+                <li class="mr">客服热线：207-8768878</li>
+                <li class="mr">客服邮箱：support@zhuaic.com</li>
+                <li class="mr">服务时间：工作日 09:00-18:00</li>
+                <li>公司地址：湖北省武汉市洪山区邮科院88号<img src="../../res/images/login/address.png" id="baidu_map" /></li>
+            </ul>
+            <div class="account_footer_bm">版权所有 © 2019 抓现货 保留所有权利 鄂ICP备15018760号</div>
+        </div>
+    </div>
+</body>
+
+</html>

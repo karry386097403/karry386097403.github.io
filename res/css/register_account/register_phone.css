@@ -1,0 +1,122 @@
+.banner_bg{
+    background: url(../../images/login/banner.png) no-repeat;
+}
+
+.register_content{
+    height: 700px;
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+
+.register_content .register_box{
+    width: 701px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/* 注册表单 */
+.register_box .register_form{
+    padding: 54px 230px;
+}
+
+.register_form .title{
+    text-align: center;
+}
+
+.register_form .title h4{
+    font-weight: 700;
+    color: #D82335;
+}
+
+.register_form .content{
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+.register_form .lh{
+    width: 5px;
+    line-height: 38px;
+}
+
+.register_form .lh_t{
+    width: 95px;
+    line-height: 38px;
+    text-align: right;
+}
+
+.register_form input{
+    border: none;
+}
+
+.register_form .bl{
+    border-bottom: 1px solid #ddd;
+}
+
+/* 必填 */
+.register_form .must{
+    color: #D82335;
+}
+
+/* 获取验证码 */
+.register_form .get_code{
+    color: #009DD9;
+}
+
+/* 输入推荐码 */
+.register_form .account_register_recommend{
+    padding-left: 0px;
+}
+
+.register_form .rule_box{
+    margin-top: -7px;
+    margin-bottom: 20px;
+}
+
+.rule_box span{
+    color: #666;
+}
+
+.rule_box span a{
+    color: #D82335;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+input::placeholder{
+    color: #999;
+}
+
+/* 注册按钮 */
+.register_form .register_now{
+    width:240px;
+    height:45px;
+    border-radius:5px;
+    color: #fff;
+    background-color: lightgrey;
+    font-size:16px;
+    cursor: not-allowed;
+}
+
+/* 错误提示 */
+.register_form .wrong_show_phone,
+.register_form .wrong_show_password,
+.register_form .wrong_show_comfirm,
+.register_form .wrong_show_code{
+    display: none;
+    margin-top: -15px;
+}
+
+.wrong_show_phone i,
+.wrong_show_password i,
+.wrong_show_comfirm i,
+.wrong_show_code i{
+    padding-left: 5px;
+    color: #D82335;
+}
+
+/* 点击发送验证码之后 */
+.submit_disabled{
+    color: #D82335!important;
+    cursor: not-allowed;
+}

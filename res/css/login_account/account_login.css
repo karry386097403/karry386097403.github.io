@@ -1,0 +1,93 @@
+/* 账号登录-表单 */
+.content_box_content #content_form{
+    width: 200px;
+    height: 245px;
+    margin-top: 103px;
+}
+
+#content_form .title{
+    margin: 0 0 20px 71px;
+}
+
+#content_form .title h4{
+    font-weight: 700;
+    color: #D82335;
+}
+
+#content_form .lh img{
+    width: 21px;
+    height: 21px;
+    opacity:0.8;
+}
+
+#content_form .lh{
+    line-height: 30px;
+    text-align: center;
+}
+
+#content_form input{
+    height: 30px;
+    padding-top: 10px;
+    border: none;
+    font-size: 12px;
+}
+
+#content_form .bl{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+#content_form .operate{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+/* 免费注册 */
+#content_form .operate .register_free{
+    color: #009DD9;
+    font-size: 12px;
+}
+
+/* 忘记密码 */
+#content_form .operate .forget_password{
+    color: #999;
+    font-size: 12px;
+}
+
+#content_form .operate i{
+    display: inline-block;
+    width: 1px;
+    height: 8px;
+    opacity: 0.5;
+    vertical-align: middle;
+    background-color: #bbb;
+}
+
+/* 登录按钮 */
+#content_form .login_now{
+    width:200px;
+    height:45px;
+    border-radius:5px;
+    color: #fff;
+    background:rgba(216,35,53,1);
+    font-size:16px;
+}
+
+/* 错误提示 */
+#content_form .error_tip_phone,
+#content_form .error_tip_password{
+    display: none;
+    margin-top: -15px;
+}
+
+#content_form .error_tip_phone i,
+#content_form .error_tip_password i{
+    padding-left: 15px;
+    color: #D82335;
+    font-size: 12px;
+}
+
+.banner_bg{
+    background: url(../../images/login/banner.png) no-repeat;
+}

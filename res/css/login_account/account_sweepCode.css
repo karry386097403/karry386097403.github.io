@@ -1,0 +1,136 @@
+.banner_bg{
+    background: url(../../images/login/banner.png) no-repeat;
+}
+
+.content_box_content .code_landing{
+    width: 200px;
+    height: 232px;
+    margin-top: 103px;
+}
+
+.code_landing .title{
+    margin: 0 0 30px 60px;
+}
+
+.code_landing .title h4{
+    font-weight: 700;
+    color: #D82335;
+}
+
+.code_landing .content{
+    position: relative;
+    width: 169px;
+    height: 169px;
+    margin-bottom: 20px;
+}
+
+/* 图标-刷新 */
+.code_landing .refresh_pic{
+    position: absolute;
+    display: none;
+    top: 65.5px;
+    left: 65.5px;
+    cursor: pointer;
+}
+
+.code_landing .please{
+    margin-left: 14px;
+    color: #333
+}
+
+#account_bind{
+    display: none;
+}
+
+/* #account_bind .layui-form-item{
+    margin-bottom: 30px;
+} */
+
+#account_bind .title{
+    padding: 20px 14px;
+    text-align: center;
+}
+
+#account_bind .title h4{
+    display: inline-block;
+    color: #D82335;
+    font-size: 16px;
+}
+
+#account_bind .title img{
+    float: right;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+#account_bind .content{
+    padding: 0 35px;
+}
+
+#account_bind .content .content_first{
+    width:41px;
+    height:45px;
+    line-height: 45px;
+    border:1px solid #dcdcdc;
+    border-radius:5px 0px 0px 5px;
+    text-align: center;
+}
+
+#account_bind .content_first_phone,
+#account_bind .content_first_password{
+    width: 239px;
+    height: 47px;
+    border-left: none;
+    font-size: 12px;
+}
+
+#account_bind .lh{
+    display: flex;
+}
+
+/* 错误提示 */
+#account_bind .error_tip_phone,
+#account_bind .error_tip_password{
+    display: none;
+    margin-top: -15px;
+}
+
+#account_bind .error_tip_phone i,
+#account_bind .error_tip_password i{
+    padding-left: 5px;
+    color: #D82335;
+    font-size: 12px;
+}
+
+.error_tip_phone img,
+.error_tip_password img{
+    margin-right: 5px;
+}
+
+/* 登录按钮 */
+#account_bind .bind_now{
+    width:280px;
+    height:45px;
+    border-radius:5px;
+    color: #fff;
+    background:rgba(216,35,53,1);
+    font-size:16px;
+}
+
+#account_bind .btn_box{
+    margin-top: 45px;
+}
+
+/* 扫码登录成功 */
+.landing_success{
+    display: none;
+    position: absolute;
+    top: 183px;
+    text-align: center;
+}
+
+.landing_success .tips_success{
+    margin-top: 14px;
+    color: #666;
+    font-size: 12px;
+}

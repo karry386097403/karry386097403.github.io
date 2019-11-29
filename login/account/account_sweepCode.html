@@ -1,0 +1,116 @@
+<!-- 扫码登录页面 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>扫码登录</title>
+    <link rel="stylesheet" href="../../res/layui-v2.5.5/layui/css/layui.css" />
+    <link rel="stylesheet" href="../../res/css/global.css" />
+    <link rel="stylesheet" href="../../res/css/login_account/account_sweepCode.css" />
+    <script src="https://cdn.bootcss.com/jquery/3.4.0/jquery.js"></script>
+    <script src="../../res/layui-v2.5.5/layui/layui.js"></script>
+    <script src="../../res/js/global.js"></script>
+    <script src="../../res/js/login_account/account_sweepCode.js"></script>
+</head>
+
+<body>
+    <!-- hearder -->
+    <div class="layui-container">
+        <div class="account_header">
+            <div class="account_header_left">
+                <a href="javascript:;">
+                    <img src="../../res/images/login/logo.png" />
+                </a>
+            </div>
+            <div class="account_header_line"></div>
+            <div class="account_header_text">
+                <b>欢迎登录</b>
+            </div>
+        </div>
+    </div>
+    <div class="banner_bg">
+        <div class="layui-container">
+            <div class="account_content">
+                <div class="content_box">
+                    <div class="content_box_pic">
+                        <img src="../../res/images/login/chahua.png" />
+                    </div>
+                    <div class="content_box_content">
+                        <div class="erweima">
+                            <img src="../../res/images/login/computer.png" />
+                        </div>
+                        <div class="code_landing">
+                            <div class="title">
+                                <h4>扫码登录</h4>
+                            </div>
+                            <div class="content">
+                                <img src="../../res/images/login/normal.png" class="normal_pic" />
+                                <img src="../../res/images/login/refresh.png" class="refresh_pic" />
+                            </div>
+                            <div class="please">请使用微信扫一扫登录</div>
+                        </div>
+                        <!-- 扫码登录成功 -->
+                        <div class="landing_success">
+                            <div>
+                                <img src="../../res/images/login/true.png" />
+                            </div>
+                            <div class="tips_success">绑定账号成功，下次可直接扫码登录！</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="layui-container">
+        <div class="account_footer">
+            <div class="title">
+                <h4>联系我们</h4>
+            </div>
+            <ul>
+                <li class="mr">客服热线：207-8768878</li>
+                <li class="mr">客服邮箱：support@zhuaic.com</li>
+                <li class="mr">服务时间：工作日 09:00-18:00</li>
+                <li>公司地址：湖北省武汉市洪山区邮科院88号<img src="../../res/images/login/address.png" id="baidu_map" /></li>
+            </ul>
+            <div class="account_footer_bm">版权所有 © 2019 抓现货 保留所有权利 鄂ICP备15018760号</div>
+        </div>
+    </div>
+    <!-- 绑定账号弹窗 -->
+    <form id="account_bind" lay-filtre="account_bind">
+        <div class="title">
+            <h4>绑定账号</h4>
+            <img src="../../res/images/login/close.png" />
+        </div>
+        <div class="content">
+            <div class="layui-form-item lh">
+                <div class="content_first">
+                    <img src="../../res/images/login/user.png" />
+                </div>
+                <input type="text" class="layui-input content_first_phone" placeholder="请输入手机号或邮箱">
+            </div>
+            <!-- 错误提示 -->
+            <div class="error_tip_phone">
+                    <img src="../../res/images/login/tips.png" /><i></i>
+            </div>
+            <div class="layui-form-item lh">
+                <div class="content_first">
+                    <img src="../../res/images/login/password.png" />
+                </div>
+                <input type="text" class="layui-input content_first_password" placeholder="请输入6-15位密码">
+            </div>
+            <!-- 错误提示 -->
+            <div class="error_tip_password">
+                    <img src="../../res/images/login/tips.png" /><i></i>
+            </div>
+            <div class="btn_box">
+                <button type="submit" class="layui-btn bind_now" lay-submit lay-filter="bind_now">绑定</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
